@@ -1,0 +1,77 @@
+body
+{
+    text-align: center;
+    background-color: #011F3F;
+}
+#level-title
+{
+    margin:  40px 75px 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+}
+.game-over
+{
+    background-color: red;
+    opacity: 0.5;
+}
+.container
+{
+    display: block;
+    margin: auto;
+    width: 50%; 
+}
+.btn
+{
+    margin: 20px;
+    height: 180px;
+    width: 180px;
+    display: inline-block;
+    border: 8px solid black;
+    border-radius: 20%;
+    
+}
+.red
+{
+    background-color: red;
+}
+.green
+{
+    background-color: green;
+}
+.blue
+{
+    background-color: blue;
+}
+.yellow
+{
+    background-color: yellow;
+}
+
+.pressed
+{
+    box-shadow: 0 0 20px white;
+    background-color: gray;
+}
+
+footer
+{
+    margin-top: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.icon-s
+{
+    margin: 0px 10px;
+    color: white;
+}
+
+.icon-s:hover
+{
+    color: grey;
+}
